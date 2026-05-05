@@ -1,0 +1,11 @@
+anthropic
+openai
+google-genai
+pandas
+matplotlib
+seaborn
+python-dotenv
+pydantic
+tqdm
+jupyter
+ipykernel
