@@ -9,3 +9,5 @@ pydantic
 tqdm
 jupyter
 ipykernel
+xai-sdk
+xai-sdk

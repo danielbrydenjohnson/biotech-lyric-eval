@@ -4,16 +4,17 @@ from typing import Callable
 
 import anthropic
 from openai import OpenAI
-from google import genai
+from xai_sdk import Client
+from xai_sdk.chat import user
 
 
 OPUS_MODEL = "claude-opus-4-7"
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
 GPT_MODEL = "gpt-5.5"
-GEMINI_MODEL = "gemini-3.1-pro-preview"
+GROK_MODEL = "grok-4.3"
 
 
-def retry_call(func: Callable[[], str], retries: int = 3, delay_seconds: int = 5) -> str:
+def retry_call(func: Callable[[], str], retries: int = 3, delay_seconds: int = 30) -> str:
     """
     Run an API call with simple retry logic.
 
@@ -36,7 +37,7 @@ def retry_call(func: Callable[[], str], retries: int = 3, delay_seconds: int = 5
     raise last_error
 
 
-def call_claude(prompt: str, model: str, max_tokens: int = 800, temperature: float = 0.8) -> str:
+def call_claude(prompt: str, model: str, max_tokens: int = 800) -> str:
     """
     Call an Anthropic Claude model and return the text response.
     """
@@ -50,7 +51,6 @@ def call_claude(prompt: str, model: str, max_tokens: int = 800, temperature: flo
         response = client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            temperature=temperature,
             messages=[
                 {"role": "user", "content": prompt}
             ],
@@ -60,7 +60,7 @@ def call_claude(prompt: str, model: str, max_tokens: int = 800, temperature: flo
     return retry_call(_call)
 
 
-def call_opus(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> str:
+def call_opus(prompt: str, max_tokens: int = 800) -> str:
     """
     Call Claude Opus 4.7.
     """
@@ -68,11 +68,10 @@ def call_opus(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> s
         prompt=prompt,
         model=OPUS_MODEL,
         max_tokens=max_tokens,
-        temperature=temperature,
     )
 
 
-def call_haiku(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> str:
+def call_haiku(prompt: str, max_tokens: int = 800) -> str:
     """
     Call Claude Haiku 4.5.
     """
@@ -80,11 +79,10 @@ def call_haiku(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> 
         prompt=prompt,
         model=HAIKU_MODEL,
         max_tokens=max_tokens,
-        temperature=temperature,
     )
 
 
-def call_gpt5(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> str:
+def call_gpt5(prompt: str, max_tokens: int = 800) -> str:
     """
     Call GPT-5.5 via the OpenAI Responses API.
     """
@@ -99,32 +97,35 @@ def call_gpt5(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> s
             model=GPT_MODEL,
             input=prompt,
             max_output_tokens=max_tokens,
-            temperature=temperature,
         )
         return response.output_text
 
     return retry_call(_call)
 
 
-def call_gemini(prompt: str, max_tokens: int = 800, temperature: float = 0.8) -> str:
+def call_grok(prompt: str, max_tokens: int = 800) -> str:
     """
-    Call Gemini 3.1 Pro via the Google GenAI SDK.
-    """
-    api_key = os.getenv("GOOGLE_API_KEY")
-    if not api_key:
-        raise ValueError("Missing GOOGLE_API_KEY in .env")
+    Call Grok 4.3 via the xAI SDK.
 
-    client = genai.Client(api_key=api_key)
+    Note: max_tokens is accepted for interface consistency with the other wrappers,
+    but we do not pass it into xAI yet because the installed SDK's chat.create()
+    method rejected max_completion_tokens during smoke testing.
+    """
+    api_key = os.getenv("XAI_API_KEY")
+    if not api_key:
+        raise ValueError("Missing XAI_API_KEY in .env")
+
+    client = Client(
+        api_key=api_key,
+        timeout=3600,
+    )
 
     def _call() -> str:
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt,
-            config={
-                "max_output_tokens": max_tokens,
-                "temperature": temperature,
-            },
+        chat = client.chat.create(
+            model=GROK_MODEL,
         )
-        return response.text
+        chat.append(user(prompt))
+        response = chat.sample()
+        return response.content
 
     return retry_call(_call)
