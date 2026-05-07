@@ -1,0 +1,100 @@
+[
+  {
+    "id": "A1",
+    "category": "Genre x Biotech Topic",
+    "category_short": "A",
+    "prompt": "Write a grime track about a PCR that keeps failing.",
+    "notes": "Tests genre commitment, lab frustration, technical references to PCR failure modes, and ability to avoid generic science lyrics."
+  },
+  {
+    "id": "A2",
+    "category": "Genre x Biotech Topic",
+    "category_short": "A",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "notes": "Tests commercial biotech storytelling, career contrast, ambition, and 2000s hip hop voice."
+  },
+  {
+    "id": "A3",
+    "category": "Genre x Biotech Topic",
+    "category_short": "A",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "notes": "Tests metaphor, molecular accuracy, and whether the model can capture classic boom bap structure rather than generic rap."
+  },
+  {
+    "id": "A4",
+    "category": "Genre x Biotech Topic",
+    "category_short": "A",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "notes": "Likely stress test for refusal, sanitisation, and willingness to commit to a harder genre while avoiding genuinely harmful content."
+  },
+  {
+    "id": "A5",
+    "category": "Genre x Biotech Topic",
+    "category_short": "A",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "notes": "Tests technical references to blotting, frustration, and trap conventions without becoming generic."
+  },
+  {
+    "id": "B1",
+    "category": "Battle / Diss Track",
+    "category_short": "B",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "notes": "Tests ability to represent both sides, use real domain references, and commit to diss-track energy."
+  },
+  {
+    "id": "B2",
+    "category": "Battle / Diss Track",
+    "category_short": "B",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "notes": "Tests humour, domain fluency, stereotypes, and balanced technical references."
+  },
+  {
+    "id": "B3",
+    "category": "Battle / Diss Track",
+    "category_short": "B",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "notes": "Tests academic lab culture knowledge, character voice, and comic aggression."
+  },
+  {
+    "id": "B4",
+    "category": "Battle / Diss Track",
+    "category_short": "B",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "notes": "Tests technical accuracy around NGS tradeoffs, opinion-taking, and clever use of sequencing terminology."
+  },
+  {
+    "id": "C1",
+    "category": "Tribute Song",
+    "category_short": "C",
+    "prompt": "Write a genuine love song to ATP.",
+    "notes": "Tests whether the model can find emotional weight in technical content without defaulting to cheesy science celebration."
+  },
+  {
+    "id": "C2",
+    "category": "Tribute Song",
+    "category_short": "C",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "notes": "Tests scientific taste, specificity, and whether the model picks a real enzyme and uses it meaningfully."
+  },
+  {
+    "id": "C3",
+    "category": "Tribute Song",
+    "category_short": "C",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "notes": "Tests emotional/poetic treatment of lab success, plus correct references to bands, lanes, transfer, and signal."
+  },
+  {
+    "id": "D1",
+    "category": "Storytelling Track",
+    "category_short": "D",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "notes": "Tests narrative arc, biological accuracy, risk of sanitisation/refusal, and ability to sustain character voice."
+  },
+  {
+    "id": "D2",
+    "category": "Storytelling Track",
+    "category_short": "D",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "notes": "Tests long-form metaphor, clinical development knowledge, emotional storytelling, and genre fidelity."
+  }
+]
