@@ -1,0 +1,2904 @@
+[
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A and D are both strong: A nails grime cadence with vivid hooks ('primer dimer skanking in the bottom lane', 'cycler spinning like pirate radio') and consistent UK slang, while D commits hard with a narrative arc, specific reagents (NEB, IDT, 260/230), and a satisfying resolution. A edges D slightly with tighter hooks and more consistent grime energy. C is technically accurate and uses some UK slang ('wasteman') but feels more like a lab rant than grime. B is repetitive ('ting' filler), weakest in lyrical craft and cleverness, with awkward grammar ('that ain't how it should are')."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 2
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "reasoning": "Version A is the strongest overall. It nails grime authenticity with dense internal rhymes, authentic slang flows, and proper structure across intro, verses, hook, and bridge. The science is precise and integrated naturally: primer dimers skanking, Ct curves, NTC contamination, GC-rich regions, secondary structure—all correctly referenced. Lyrical craft is exceptional with clever personifications (primers misbehaving like kids, template ghosting, polymerase ain't strong) and rhythm that scans perfectly. Commitment is total; it never breaks character or plays safe. Version D ranks second: it delivers strong grime fidelity with proper 140 BPM framing and authentic UK grime cadence. Science is equally rigorous (Tm optimization, BLAST checking, phenol contamination, nanodrop ratios). The narrative arc with a positive resolution at the end adds emotional weight. Lyrical craft is solid though slightly less dense than A. Cleverness is present but less inventive. Version B has decent grime elements but relies too heavily on the tired ting suffix, making it feel formulaic rather than committed. Scientific accuracy is good but less woven into the narrative. Lyrical scanning is awkward in places. Version C is the weakest: it sounds more like generic UK rap than grime specifically, lacks consistent rhythm and rhyme scheme, and feels like it's explaining science rather than embodying it. The commitment feels half-hearted, and while the science is accurate, it's not cleverly deployed."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "reasoning": "D is the strongest overall: it explicitly locks into grime tempo and tone, uses convincing UK slang, has a memorable hook, and packs in accurate PCR troubleshooting details. A is also very strong, with good grime flavor, solid structure, and accurate qPCR/PCR references, though it feels slightly less tight rhythmically than D. C is scientifically competent and committed, but the grime identity is lighter and some lines are more generic or awkward. B commits to the premise and has some correct PCR details, but the repeated 'ting' feels surface-level, the lyrics scan less smoothly, and there are a few clumsy or less accurate scientific moments."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 2
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "reasoning": "A dominates with authentic grime flow, flawless PCR terminology, tight multi-syllable rhymes and total commitment to perpetual failure. C follows closely with strong slang and accuracy but less intricate wordplay. B is competent yet hampered by repetitive hooks and occasional awkward phrasing. D matches grime energy and science but fatally undercuts the premise by resolving successfully in the outro."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "B has the most polished lyricism, strongest wordplay (e.g., 'Phase III was a glacier, I was built for a flood'), a bridge that adds structure, and accurate science. A is dense with specific, accurate references (siRNA, RISC, 3' UTR, Vioxx) and a strong 2000s hip hop vibe but slightly less varied. C is solid with good imagery (Kendall Square, Allston Chipotle) but shorter and less inventive. D feels more generic, with weaker rhythm and more cliché startup talk than crafted bars."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "Version B excels across all dimensions. It maintains authentic 2000s hip-hop flow with natural cadence, complex internal rhymes (LC-MS/swingin, kinase/stacking), and culturally specific references (Slack at dawn, venture-cap rains). The scientific terminology is deployed with precision and meaning—ELISA plates, LC-MS, kinase plots, biomarker lines, GMP, CMC, and therapeutic index are all contextually appropriate. The bridge and third verse demonstrate remarkable cleverness, particularly the final couplet about proof over bureaucracy. It commits fully to the concept without sacrificing authenticity. Version A is strong on scientific accuracy and commitment, with memorable hooks and genuine biotech jargon (RNAi, CRISPR, RISC pathway, 3' UTR), but the flow is occasionally awkward and less naturally hip-hop. Version C has decent energy but the rhyme schemes feel forced (retinas burned/learned, pressure/achiever), and lines like 'Pipette in my pocket like a true achiever' verge on absurd. The science is present but less integrated. Version D suffers most—it reads more like a generic startup rap with biotech terminology sprinkled in rather than woven through. Lines like 'moving fast and breaking regulations at a measured pace' undercut the message, and the overall flow feels stiff for 2000s hip-hop. Scientific references are surface-level and the cleverness is minimal."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "B is the strongest overall: it has a convincing hip hop structure, polished flow, accurate biotech and startup details, and a committed narrative without many forced lines. A is vivid and technically specific, especially on RNAi and startup financing, though a few lines are scientifically or ethically awkward, like editing exons via RNAi and stealing patents. C has good energy and punchy 2000s-style imagery, but it is a bit more generic and less precise than A or B. D commits to the premise but has clunkier rhymes, weaker rhythm, and several less convincing science/business references."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "B edges A for superior wordplay and tighter narrative arc while matching its scientific depth and flow; C is competent but less polished; D has the weakest rhythm and craft."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "reasoning": "C is the standout: vivid 90s boom bap imagery (Bronx handshakes, payphones, park jams, Pete Rock-era texture), accurate science (Chargaff, Watson-Crick, B-form, major/minor groove), and clever metaphors throughout. D is close behind with strong boom bap signifiers (Premier, Pete Rock, Okazaki on the lagging street) and solid science. B is technically accurate and tightly written but feels more like a textbook with a beat than 90s boom bap. A is competent but generic, with weaker rhymes and less era-specific flavor."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "reasoning": "Version C is exceptional across all dimensions. It fully commits to the 90s boom bap aesthetic with vivid street imagery (Bronx, subway, payphone, park jam), weaves in accurate science naturally (B-form DNA, Chargaff's rules, call-and-response structure mirroring base pairing), maintains strong lyrical craft with consistent scanning and multivalent wordplay (complement/complementary, groove/Major groove, echo/inverse design), and demonstrates creativity in metaphor and scene-building. Version D is strong in genre fidelity and scientific accuracy with clever specific references (20.4 angstroms, Pete Rock), but is slightly more conventional lyrically and less immersive in 90s hip-hop atmosphere. Version A excels in scientific detail and technical accuracy but plays it safer with straightforward technical exposition and less vivid imagery. Version B uses accurate science but lacks the groove, specificity, and commitment to voice that would make it memorable boom bap rap."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "reasoning": "C best captures 90s boom bap texture with scratches, street imagery, strong rhyme, and accurate DNA complementarity woven into the concept. D is also highly genre-faithful and committed, with good scientific usage, though a few lines are looser or less accurate. B is scientifically solid and has a decent hook but feels less specifically boom bap and less inventive. A uses relevant terms but is more generic, has some awkward science phrasing, and has the weakest lyrical personality."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "reasoning": "C best blends authentic 90s boom-bap flavor (scratches, Bronx metaphors, call-response) with tight rhyme and full commitment. D follows closely with producer nods and solid flow. B is competent but flatter. A is accurate yet reads like a textbook list lacking rap energy."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "reasoning": "B is the standout: dense, specific science (melt curves, NTC, Coomassie glove print, ELN timestamps) woven into genuine drill cadence with slang ('lipsy', 'spinny') and clever punchlines ('can't autoclave away your name'). C is tight and inventive with strong receipts imagery (Git commits, Sanger locks) and good structure. A is solid and on-topic but more generic in flow and imagery. D covers the brief competently but feels listy and least drill-flavored, with weaker rhythm and fewer surprising lines."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "Version B dominates across all categories. It demonstrates exceptional genre fidelity with authentic UK drill cadences (wet lab, wet lab repetition, internal rhyme schemes), deep scientific knowledge woven naturally into wordplay (melt curve snitched, Cq ghost, primer-dimer chatting, ELN timestamps), sophisticated lyrical craft with multi-syllabic flows and structural complexity, and exceptional cleverness with lines like 'melt curve snitched' and 'glove print's blue from the Coomassie wash.' The bridge section shows conceptual depth. Version A is solid with clear storytelling and good rhyme schemes but lacks the linguistic density and playfulness of B. Version C ('Bench Beef') is competent with decent technical references and catchy hooks but feels more conventional and less distinctly drill. Version D is serviceable but the most generic, with simpler rhyme schemes, less inventive wordplay, and a more straightforward narrative approach that underutilizes the comedic potential of the premise."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "reasoning": "B is the strongest by far: it has convincing UK drill cadence and slang, dense but accurate lab references, strong internal rhymes, and clever science-based punchlines. C is solid and committed with good technical detail and cleaner lyricism, though it feels more generic rap than UK drill. A has the right premise and some accurate lab sabotage details, but the flow is plainer and the wordplay is limited. D includes credible scientific references but has weaker rhythm, more literal phrasing, and less convincing genre fidelity."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "reasoning": "B excels across all criteria with precise lab references, tight drill flow, and inventive wordplay; C is strong but slightly less rhythmic; A is competent yet basic; D is repetitive and shallow."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "reasoning": "B is the strongest: vivid trap imagery (hi-hats, 808s, skrrt), strong internal rhyme, sharp metaphors ('rectangular void', 'pipette like robbin' the bank'), and accurate technique details. C is dense with accurate protocol references and good flow but slightly less inventive. D is concise with clever bits ('empty as my P-value', the flipped-membrane bridge) and solid trap cadence. A is accurate but flatter rhythmically, with weaker rhymes ('express out') and less trap-genre flavor."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "reasoning": "Version B excels across all dimensions. It has authentic trap flow with internal rhymes, multi-syllabic wordplay (TBST tears, confidence sank, robbin the bank), and creative metaphors (beta-actin vanished, epitope folded). Scientific accuracy is maintained throughout while the language feels genuinely street. The bridge and outro hook show commitment to narrative arc. Version C runs close second with strong genre fidelity, excellent technical accuracy, and vivid language (belly dancer for the shaker, fiend for the scientist), but slightly less clever wordplay overall. Version A is technically solid and scientifically accurate with good structure, but the lyricism is more straightforward and less densely clever. The bridge is explanatory rather than lyrical. Version D shows competence but plays it safest with less dynamic flow, a weaker hook structure, and the bridge's revelation that the protein was on the wrong side of the membrane feels like a copout that undermines the premise rather than committing to the failed blot conceit."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "reasoning": "B best captures trap cadence, imagery, hook energy, and lab frustration while using Western blot details well. D is nearly as strong, with excellent punchlines and the clever flipped-membrane reveal, plus very solid scientific grounding. C is committed and detailed, with mostly accurate methods, but its lines are more prosy and less consistently trap. A is accurate enough and structured like a song, but it is comparatively plain, less rhythmically sharp, and less inventive."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "reasoning": "B leads with strongest trap energy, tightest flow, richest accurate biotech detail, and highest cleverness/commitment. A follows as polished and scientifically precise but less trap-flavored. C matches A on science but has weaker rhythm and fewer standout lines. D ranks lowest due to shorter length, milder trap feel, and less immersive execution."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "reasoning": "C and D are both excellent: punchy battle-rap cadence, dense and accurate science (KRAS G12C, ADCs, CAR-T, PROTACs, mRNA, bispecifics), and strong wordplay. C edges D slightly with more sustained verses, a DJ frame, and richer imagery ('Y-shaped thunder', 'barcode epitope elite'). D is tighter and punchier with great punchlines ('Ozempic ate your lunch'). B is solid and technically rich (PROTACs, ADA, Lipinski) but shorter and less rhythmically polished. A ends with a kumbaya truce that undermines the battle bit and has weaker rhymes and less inventive wordplay."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "reasoning": "Version C excels across all dimensions with the strongest rap authenticity (DJ intro/outro, natural flow, authentic battle structure), flawless scientific references woven naturally into bars, exceptional lyrical craft with internal rhymes and clever scanning, and inventive wordplay (lipid-born trick, kinase switchblade, Y-shaped thunder, living-drug squad). Version D matches C in genre fidelity and commitment with sharp delivery and strong structure, but slightly weaker scientific depth (GLP-1 reference feels tacked on, some claims less precise). Version A demonstrates comprehensive scientific accuracy and strong commitment to the format with a collaborative ending, but the lyrics feel more explanatory than rhythmic, and it plays safer structurally. Version B has solid scientific references but stumbles most on lyrical craft—lines don't scan as naturally, rhythm is choppier, and wordplay is less inventive despite good technical accuracy. C's DJ framing, superior flow, and commitment to authentic rap vernacular throughout distinguish it decisively."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 2
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "reasoning": "C is the strongest overall: it sounds like a rap battle, has clean structure, strong rhythm, vivid biotech references, and mostly accurate science used in meaningful ways. D is punchier and very committed, with excellent battle energy and clever bars, though it has a few more scientific overextensions and is less developed. B is solid and technically informed, but its flow is rougher and some lines are awkward or scientifically muddy. A has useful scientific content but feels more like an explanatory compare-and-contrast set to rhyme than a true rap battle, and the conciliatory ending undercuts the commitment."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "reasoning": "C delivers the strongest rap-battle format with DJ framing, tight rhythm, inventive wordplay and accurate references while staying fully in character. B follows closely with concise punchy bars and strong scientific depth. D is solid and aggressive but shorter and less varied. A is factually rich yet has longer lines, weaker flow and a conciliatory ending that undercuts the battle energy."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "reasoning": "A is the strongest across all dimensions—tight rhymes, vivid technical jabs ('laundering genes,' 'naming the rain'), great structure with a unifying outro. C is nearly as clever with sharp specific burns (ComBat, 'tube 1, tube 2, tube ?') and lethal pacing. D is solid and technically rich but slightly less punchy lyrically. B is the most generic—accurate but list-like, with weaker rhymes and less wordplay."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "reasoning": "Version A excels across all dimensions with sophisticated rhyme schemes (metronome/throne, confess/facts), razor-sharp technical wordplay (DESeq2 priest, laundering genes, rotating heatmap colors), and genuine rap battle structure with escalating exchanges. Scientific terms are deployed with precision and dark humor throughout. Version C matches A's commitment and accuracy but has slightly less polished lyrical flow and fewer multi-layered jokes. Version D maintains solid technical accuracy and rhythm but relies more on straightforward contrasts (bench vs. cluster) with less clever wordplay than A or C. Version B has accurate science and decent verses but suffers from awkward line breaks, weaker rhyme schemes (decision/vision is serviceable but generic), and a less cohesive battle structure that doesn't build momentum. The bridge attempts reconciliation too early, deflating competitive energy. A's closing volta (who fed you data/who found the sample swap) perfectly balances both sides while maintaining lyrical excellence."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "reasoning": "A is the strongest overall: it fully commits to the rap battle format, uses accurate wet-lab and bioinformatics references, and has sharp punchlines with strong rhythm. C is also excellent, with especially clever field-specific jabs and good battle energy, though it is a bit shorter and slightly less developed than A. D has solid references and a clear back-and-forth structure but some awkward phrasing and weaker lyrical flow. B covers the prompt but is more generic, with clunkier rhymes, less inventive wordplay, and some scientifically or lyrically awkward lines."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Claude Opus 4.7",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "reasoning": "A and C both deliver tight, high-fidelity rap battles packed with accurate domain references and strong wordplay; A edges out via superior length, balance, and closing couplet. B and D are competent but show weaker rhythm, fewer standout lines, and occasional forced rhymes or filler."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "GPT-5.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "reasoning": "D and C are both exceptional, with dense wordplay, vivid scientific specificity (eRA Commons, K99, ChIP-seq, AlphaFold, Reviewer Two), and strong rap cadence. D edges out C with more rounds, sustained quality, and standout lines like 'h-index got tenure; yours got depression' and 'dean of the mean.' C is tighter and has a great outro metaphor. B is solid and accurate but less inventive. A is competent but rhythmically uneven and leans on generic boasts."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "GPT-5.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "reasoning": "Version D excels across all dimensions with superior rap battle structure, extended back-and-forth exchanges, sophisticated internal rhymes (study section/Reviewer Two, FACS plots/ChIP-seq noise), and dense scientific terminology woven naturally into the flow (delta-delta Ct, organoids, CRISPR locus). The postdoc's closing verse about K99s and institutional power dynamics shows deep commitment to the subject matter. Version C demonstrates exceptional lyrical craft with creative references (FPLC stick, Gordon vacation, Rorschach mess) and a compelling thematic outro, though slightly less sustained battle energy than D. Version B maintains consistent genre conventions and solid scientific accuracy but lacks the depth of wordplay and exchange length seen in D and C. Version A reads more like a simplified three-round exchange with adequate but less inventive rhymes and scientific references, lacking the extended back-and-forth intensity expected of a full rap battle."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "GPT-5.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "reasoning": "D is the strongest overall: it fully commits to the rap battle, has sustained hierarchy-specific conflict, sharp internal rhymes, and accurate lab references like R01s, eRA Commons, FACS, ChIP-seq, CRISPR, organoids, Ct values, and K99s. C is also excellent, punchy, and clever, with strong battle energy and memorable wordplay, though a few lines are slightly looser scientifically or syntactically. B is solid and grounded, with recognizable academic-lab dynamics and decent rhyme, but it is less inventive. A fits the prompt but is more straightforward, with simpler rhymes and a few weaker or less accurate academic authorship details."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "GPT-5.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "reasoning": "C wins for tight structure, sharp wordplay and accurate lab references. B follows closely with strong flow and science. D is detailed but overlong; A is competent yet less inventive."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Opus 4.7",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "reasoning": "A has the tightest punchlines, strongest rhythm, and specific clever references (Solexa, Sanger Institute, ZMWs, T2T) without sacrificing flow. B is polished with a great DJ Polymerase frame and balanced battle but slightly less punchy. D is technically dense and accurate (SMN1, 17q21) but reads more like prose with uneven meter. C covers the science but has weaker rhymes and forced lines, with the bridge feeling tacked on."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Opus 4.7",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "reasoning": "Version A excels across all dimensions with superior technical precision, masterful wordplay (Q-scores as clean, hallucinating bases, milking the thread), authentic rap battle structure with escalating stakes, and perfect commitment to the format. The back-and-forth feels natural, each side lands cutting jabs grounded in real science, and the closing verses achieve genuine rhetorical sophistication. Version B maintains strong genre adherence and scientific accuracy with a DJ Polymerase framing device, solid rhyme schemes, and good commitment, but lacks the sharpness and surprise factor of A—lines feel slightly more formulaic. Version D delivers hard-hitting content and strong scientific accuracy with memorable couplets, but has less rhythmic finesse and slightly weaker lyrical scanning in places. Version C attempts ambition with a title card and bridge section but suffers from inconsistent rhythm, occasionally forced rhymes (dispersion/conversion), and less cohesive scientific argumentation—it plays safe on cleverness and doesn't fully commit to the battle's escalatory tension."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Opus 4.7",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "reasoning": "A is the strongest overall: it sounds like an actual rap battle, uses sequencing terminology accurately and aggressively, and has the best punchlines. B is also very strong and scientifically clean, but slightly more polished-explanatory than battle-ready. C commits to the format and has mostly solid science, but some phrasing is clunky and the rhymes are less sharp. D includes some impressive specific references, but it reads more like technical couplets than rap and has a few shakier claims, especially the exaggerated one-read telomere-to-telomere line."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Opus 4.7",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "reasoning": "A excels across all criteria with tight rhymes, precise tech references, inventive lines, and full rap-battle commitment. B matches closely in format and accuracy but is slightly less inventive. D is scientifically strong and committed yet has weaker flow. C has the lowest scores due to forced rhymes, occasional inaccuracies, and less clever execution."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "reasoning": "A and C are both exceptional: A has gorgeous, sustained imagery, perfect scansion, and emotional depth ('phosphate kiss on everything', 'fleeting coin, my constant flame'); C is wonderfully concrete and inventive ('seven-point-three kilocalories', 'magnesium glove', 'verb that gets us here') with playful structure. A edges out C on overall lyrical polish and emotional arc. B is solid and biochemically rich but slightly less melodic and varied. D is competent but more list-like, with weaker rhymes and clichéd lines, and contains a factual slip ('Forty molecules')."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 2,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 2
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "reasoning": "Version A excels across all dimensions with sophisticated metaphors (phosphate kiss, trembling chord), flawless rhyme scheme, scientifically precise references (cristae, proton gradient, myosin), and genuine emotional depth that treats ATP as both biochemical reality and love object. Version C matches A's commitment and lyrical craft with inventive phrasing (three phosphates deep, the same tired heart) and specific scientific accuracy, but contains a minor error (seven-point-three kJ is the standard free energy, though context makes this forgivable). Version B maintains good scientific accuracy and decent lyricism but plays safer emotionally and lacks the structural sophistication of A and C, with less inventive wordplay. Version D fundamentally fails the assignment: it lacks proper song structure, contains significant scientific errors (thirty-point-five kilojoules vs seven-point-three, vague Krebs wheel reference, forty molecules confusion), has weak rhymes and meter, and treats ATP as generic metaphor rather than genuine character. Its safe, didactic approach contradicts the prompt's implicit demand for creative commitment."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 2,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "reasoning": "A is the strongest overall: it reads like a genuine love song while weaving ATP synthase, chemiosmosis, myosin, kinases, ion pumps, and coupling into elegant lyrical metaphors with very few scientific slips. C is also excellent, with memorable craft and clever factual details, though it has a few more biological overextensions around ATP’s path through glycolysis and membranes. B is solid and committed, but less polished and has some awkward or questionable science, especially around ATP transport and phrasing like protons being large. D is serviceable as a simple ode, but it is more generic, less inventive, and contains clearer inaccuracies such as the Krebs-cycle payoff and ATP regeneration scale."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Grok 4.3",
+      "C": "Claude Opus 4.7",
+      "D": "Claude Haiku 4.5"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "reasoning": "C edges A with tighter structure, sharper title/outro and more inventive phrasing while matching on accuracy and craft; B is solid but less poetic; D is generic and factually loose."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A and D are both exceptional: A delivers a richly atmospheric blues with vivid imagery ('lanterns on the track', 'electrophoresis sky') and accurate science (RY13, palindrome, methylation defense, sticky ends). D matches with a wearier blues tone, references Boyer/Cohen, pSC101, star activity, homodimer structure, and a clever heat-inactivation farewell. C is strong and committed with good technical detail (buffer two, 37°C, star activity implied) but slightly less lyrical polish. B is competent but more generic, with weaker rhymes and less vivid imagery, and contains a somewhat hollow bridge."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "Version A achieves near-perfect execution across all dimensions. It commits to blues/ballad form with authentic phrasing, integrates scientific detail seamlessly (palindromic sequences, sticky ends, methylation, electrophoresis), maintains impeccable rhyme and rhythm throughout multiple verses, and delivers stunning wordplay (lanterns on the track, molecular bouncer, cleanest cut in kind). The metaphorical framework is sustained brilliantly. Version D ranks second with strong genre fidelity (genuine weary blues tone), accurate science, and excellent commitment to narrative framing (the gendered enzyme, historical context with Boyer/Cohen). However, it has slightly weaker lyrical consistency in places (grammar of ones and lies feels forced) and less inventive wordplay. Version C demonstrates solid technical skill with good scientific accuracy and committed energy, but relies more on generic romantic clichés (favorite blade, sticky art) and lacks the sophisticated metaphorical depth of A and D. Version B, while competent, plays safest with straightforward conventional song structure, less ambitious wordplay, and more generic lyrical choices that don't fully justify the elaborate biochemistry it references."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A is the strongest overall: polished as a song, highly committed, clever, and scientifically precise about EcoRI recognition, Mg2+ dependence, sticky ends, methylation protection, and cloning history. D is nearly as good, with excellent blues-ballad voice and strong wordplay, but has a few questionable scientific/historical details such as the lambda fragment count and lab-origin framing. C is energetic and songlike with good use of lab imagery, but has some scientific slips, especially claiming methylase cannot protect against EcoRI. B is serviceable and clearly a tribute song, but more generic lyrically and contains notable inaccuracies, including the K-12 origin and the methylation line."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A excels in poetic depth, accuracy, and blues fidelity; D is close with strong historical nods but slightly less polished flow; C is solid and detailed yet more generic; B is competent but least inventive and rhythmic."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "reasoning": "B achieves the most elevated 'ode' tone with strong imagery, consistent rhyme, and inventive metaphors (PVDF's white galaxy, HRP burned like a small guitar) while staying technically accurate. D is a close second with the most vivid narrative arc, specific protocol details (RIPA, Laemmli, beta-mercapto), and great character (the PI moment, 'goat that never mocks her'). A is solid and technically rich but slightly more diffuse and repetitive. C is competent but the most generic, with weaker rhymes and less inventive language."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "reasoning": "Version B excels with the most poetic and elevated language (O stainless dawn, holy line of ECL glow), achieving genuine lyrical beauty while maintaining scientific accuracy and remarkable cleverness (HRP burned like a small guitar, grayscale tide). Version A is technically strongest with flawless scientific detail and excellent rhythm throughout, but slightly less inventive in its word choices. Version D has strong commitment and narrative arc (the PI response, six months of troubleshooting) with solid craft, but the slang (blemp, mocks her) occasionally disrupts the tone. Version C, while scientifically accurate and well-structured, plays it safest with straightforward descriptions lacking the linguistic invention or poetic commitment of the others; it reads more like competent technical documentation than inspired lyrical celebration."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "reasoning": "B is the strongest ode: polished, musical, reverent, and scientifically well-grounded. D has the best lab-life specificity and humor, with strong commitment and clever details, though its phrasing is sometimes rougher. A is very accurate and graceful but slightly more generic and less inventive. C uses a clear song structure and mostly correct Western blot details, but the rhymes and imagery are plainer and some scientific phrasing is less precise."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "GPT-5.5",
+      "C": "Claude Haiku 4.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "reasoning": "A excels in depth, accuracy, flow and full ode commitment. B close behind with strong poetic imagery. D matches accuracy and structure but slightly less polished. C is simpler, more repetitive and generic."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": false,
+    "error_message": "Claude Opus 4.7 failed to return valid judgement: Claude returned no text content. stop_reason=refusal",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3"
+    },
+    "judgement": {}
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A"
+      ],
+      "reasoning": "Version B delivers the most sophisticated execution across nearly all dimensions. Its lyrical craft is exceptional with internal rhymes (cyto/sun, maraud/autograph), vivid metaphors (crown made of knives, Y-shaped heat), and complex rhythm that scans as genuinely poetic. The scientific accuracy is flawless and deeply integrated into the wordplay itself (frameshift on beat, ExoN proofreader). Most impressively, it commits fully to an experimental, literary interpretation of rap that elevates the entire piece. Version C is strong technically, with excellent scientific precision and solid hip-hop structure, but relies more on straightforward technical exposition rather than linguistic innovation. Its wordplay is functional but less inventive. Version A is competent and accessible, hitting traditional rap beats with correct science, but lacks the linguistic ambition and clever integration of technical terms that distinguish the others. It plays it safer in both lyrical and conceptual terms."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A"
+      ],
+      "reasoning": "B is the strongest overall: scientifically rich, inventive, well-rhymed, and fully committed, though it leans slightly spoken-word rather than pure rap. C has strong rap structure and commitment with good technical detail, but includes notable inaccuracies or overstatements such as proofreading being off and speculative origin framing. A fits the prompt and uses some correct terms, but the lyrics are more generic and clunky, with weaker wordplay and some scientific imprecision like calling the virus alive and treating ACE2 as a pump."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Claude Haiku 4.5",
+      "B": "GPT-5.5",
+      "C": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "B",
+        "C",
+        "A"
+      ],
+      "reasoning": "B excels across all criteria with superior flow, dense accurate science, inventive metaphors and full immersion. C follows closely with strong rap structure and biotech detail but slightly less rhythmic polish. A is competent yet simpler, with weaker rhymes, basic wordplay and one factual slip on viral life status."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "Claude Haiku 4.5",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "reasoning": "C is the strongest: vivid country imagery (pearl-snap, motel door, interstate), tight rhymes, and brilliant lines like 'Love can be well tolerated and still not find its way.' D is also excellent with strong country structure, concrete details (Houston/Berlin, stock drop, Lancet eulogy) and a memorable hook. A is scientifically rich and well-crafted but reads more like free verse than a country ballad and has weaker rhyme discipline. B feels generic, with awkward scansion, the wrong p-value framing ('p of 0.05' as bad news), and little country flavor."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "Claude Haiku 4.5",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "reasoning": "Version C excels across all dimensions with genuine country music sensibility (Nashville setting, fiddle tune references, motel imagery), sophisticated lyricism that scans naturally despite technical complexity, and complete commitment to the conceit. It balances scientific accuracy with poetic language and includes brilliant double meanings like 'well tolerated' and 'intent-to-treat heart.' Version D delivers strong genre fidelity with authentic country song structure and excellent hook lines, maintaining good scientific accuracy while achieving memorability through phrases like 'there ain't no Phase Four for you and me.' Version A demonstrates the deepest scientific knowledge and precision terminology, with strong lyrical craftsmanship, but feels more like skilled technical writing than country music—it lacks the twangy voice and characteristic imagery of the genre. Version B, while attempting the assignment, plays it safest with less distinctive country voice, more mechanical rhyming (analysis/malice), and weaker lyrical flow. The versions that succeed most fully embrace country convention while seamlessly integrating the scientific material rather than simply listing it."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "Claude Haiku 4.5",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "B": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "reasoning": "C best fulfills the prompt: it reads like a country breakup ballad while using Phase 3 trial concepts accurately and inventively, with strong recurring hooks and memorable lines. D is also highly committed to the country style and has good scientific framing, though a few details are looser. A is scientifically strong and emotionally coherent, but less recognizably country and less singable. B uses relevant trial terminology but feels more generic, less country, and has some awkward or inconsistent scientific and lyrical choices."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "Grok 4.3",
+      "B": "Claude Haiku 4.5",
+      "C": "GPT-5.5",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "reasoning": "C best matches country ballad tone with evocative imagery and precise terminology; A follows closely with strong detail and clever framing; D is solid but less distinctive; B feels more generic pop-structured with weaker flow."
+    }
+  }
+]

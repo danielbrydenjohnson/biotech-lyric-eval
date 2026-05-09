@@ -1,0 +1,2904 @@
+[
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 nails grime cadence with vivid imagery ('primer dimer skanking', 'pirate radio', 'wrong postcode') while keeping science correct. Claude Opus 4.7 is technically the most detailed and scientifically rich with strong structure and UK references, just slightly less swaggering than GPT. Grok 4.3 is solid and gritty but less inventive. Haiku's repetitive 'ting' refrain feels forced and the rhymes are weaker."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 2
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 delivers a complete, authentic grime track with proper 140 BPM structure, genuine UK vernacular (bruv, fam, west London), and layered hooks that escalate from despair to resolution. Its scientific accuracy is exceptional (magnesium titration, DMSO for GC-rich regions, Nanodrop ratios, phenol contamination), woven naturally into bars that scan perfectly. The wordplay (empty lanes, ghost amplicon, smudge like a lie) is inventive, and the commitment to narrative arc—ending with success at cycle 36—shows full engagement. GPT-5.5 ranks second for strong grime vocabulary (skanking, peak, beep at the gate, pirate radio), solid scientific detail (Ct curves, melt curves, inhibitors, cDNA), and committed metaphors (primer dimer skanking, template ghosting). However, some lines feel less metrically tight and the hook structure, while effective, is slightly formulaic. Claude Haiku 4.5 has competent grime mechanics and accurate science (Tm, reverse transcriptase, qPCR Ct values, optical lens calibration) but the repeated ting suffix becomes reductive, limiting lyrical variety. The commitment wavers toward the end, and wordplay is minimal. Grok 4.3 shows technical knowledge but lacks grime authenticity—the hook doesn't properly repeat or build, UK slang is sparse, and lines scan awkwardly (mute appears twice without intention, diction feels forced). The commitment feels half-hearted, treating the brief as a constraint rather than an opportunity."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 is the strongest overall: it has the clearest grime framing, strong hook, good UK slang, and detailed PCR troubleshooting used meaningfully. GPT-5.5 is polished and lyrical with solid scientific references, though it feels a bit more generic UK rap than grime and mixes conventional PCR/qPCR imagery. Grok 4.3 is scientifically competent and committed but less rhythmically distinctive and less inventive. Claude Haiku 4.5 has relevant PCR details and commitment, but the grime voice is mostly reduced to repeated 'ting/fam' and the lyrical craft is noticeably clunkier."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 2,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers authentic grime flow, precise PCR troubleshooting, and tight wordplay. GPT follows closely with strong structure and science. Grok is competent but shallower. Haiku is repetitive, mixes PCR/qPCR, and lacks grime authenticity."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 has the tightest craft with vivid images ('Phase III was a glacier, I was built for a flood'), specific industry jargon (CDMO, CMC, IND, -80) used meaningfully, and a strong bridge. Opus follows close with strong hooks and great location specificity (Kendall, Allston). Grok is technically sharp with RNAi/RISC details but shorter and less varied. Haiku is solid but more generic, with looser meter and weaker punchlines."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all dimensions with authentic 2000s hip hop production choices (808 patterns, clear verse-hook structure), precise scientific terminology naturally woven into bars (Phase III, lipid bilayer, AAV vehicle, Guide RNAs), and exceptional wordplay (lipid bilayer as slow vest metaphor, SLACK pings as modern corporate tension, centrifuge as beat pattern). The track maintains perfect scansion and commitment to the narrative arc from big pharma frustration to startup optimism. GPT-5.5 demonstrates superior lyrical craft and cleverness with standout lines (LC-MS was singin, kinase plot was swingin, drug dont care who signs checks—it cares proof) and sophisticated rhyme schemes, but slightly edges backward on genre authenticity and commitment compared to Opus. Claude Haiku 4.5 delivers solid work across the board with strong verse structure and legitimate startup/biotech details, but lacks the poetic density and surprise moments of the top two. Grok 4.3, while committing fully to an edgier tone (badge in trash, thumb drive theft, blockbusters abort), suffers from weaker scientific integration (RNAi and CRISPR feel name-dropped rather than meaningful), less consistent rhythm and scansion, and lower overall lyrical polish despite its swagger."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the strongest overall: it has the best flow, the most accurate and meaningful biotech references, and a strong startup-vs-big-pharma frame. Claude Opus 4.7 is vivid, committed, and well structured, though a little more generic and occasionally loose scientifically. Grok 4.3 has good 2000s-era specificity and sharper attitude, but the science is mixed and the song feels underdeveloped. Claude Haiku 4.5 uses relevant buzzwords and commits to the premise, but the lines are flatter, less rhythmic, and sometimes scientifically or culturally awkward."
+    }
+  },
+  {
+    "prompt_id": "A2",
+    "prompt": "Write a 2000s hip hop track about leaving big pharma for a startup.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Opus leads with tight hip-hop flow, precise biotech references, and inventive rhymes; GPT follows closely with strong structure and craft but slightly less wordplay; Haiku is solid yet uneven in rhythm and cleverness; Grok is shortest and least developed."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus and GPT-5.5 both nail the 90s boom bap aesthetic with specific era references (Pete Rock, Premier, Bronx park jams, payphones), strong internal rhymes, and dense accurate molecular biology (Okazaki fragments, antiparallel orientation, Chargaff, B-form, ligase nicks). Opus edges ahead slightly with tighter scansion and the 'Pete Rock routine'/'twenty-point-four angstroms' wordplay. GPT-5.5 is nearly equal with vivid imagery. Grok hits the science but feels more like a list than a song, with weaker boom-bap flavor. Haiku is competent but generic, with some scientific awkwardness ('perfect mismatch repair') and least genre-specific texture."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 dominates across all criteria. It has authentic boom bap structure with DJ scratches, impeccable scientific accuracy (Watson-Crick pairing, replication fork mechanics, angstrom measurements), exceptional rhyme schemes that actually scan, and genuine double meanings (Premier score/phosphate backbone, Pete Rock/three-bond grip). The commitment to personification is complete and clever. GPT-5.5 runs second with strong genre authenticity, vivid 90s NYC imagery, and good scientific grounding, but occasionally sacrifices accuracy for metaphor (three to five directional flow needs clearer explanation). Claude Haiku 4.5 delivers solid scientific content and respectable lyrics but plays safer with less inventive wordplay and a more straightforward approach. Grok 4.3 scores lowest due to weaker boom bap structure, less precise scientific language, thinner rhyme quality, and minimal cleverness in execution."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 best captures 90s boom bap imagery and cadence while keeping the DNA science accurate and well-integrated, with strong wordplay around B-form, Chargaff, grooves, and base pairing. Claude Opus 4.7 is also excellent, with strong genre markers and clever molecular romance, though it has a few slightly shakier scientific or poetic stretches like DNA drifting through a nuclear pore and codons being in sync. Grok 4.3 is scientifically engaged and committed, but its boom bap feel is thinner and some lines are awkward or imprecise. Claude Haiku 4.5 is serviceable and educational but more generic, less rhythmically convincing, and less clever than the others."
+    }
+  },
+  {
+    "prompt_id": "A3",
+    "prompt": "Write a 90s boom bap rap about complementary DNA strands finding each other.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the strongest boom-bap flavor, precise DNA terminology, tight rhymes and full thematic commitment. GPT-5.5 is close behind with vivid street imagery and solid science. Grok is competent but thinner. Haiku lists facts without strong flow, wordplay or accuracy."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 nails UK drill cadence with slang ('bruv', 'G', 'fam'), inventive imagery ('autoclave away your name', 'glove print's blue from Coomassie wash'), and dense, accurate science. Claude Opus 4.7 is a close second with strong structure, clever lines (Git commits, Sanger locks) and good craft, though slightly less drill-flavored. Grok 4.3 is competent and accurate but rhythmically flat and generic. Haiku 4.5 is serviceable but the weakest in flow, cleverness, and drill texture, with a problematic named character."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 4
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 excels across all categories with authentic UK drill cadence, internal rhyme schemes (wet lab/sticky/shifty), and masterful scientific detail integration. Lines like 'the melt curve snitched' and 'data got lipsy' demonstrate superior wordplay. Claude Opus 4.7 offers strong scientific accuracy and clever concepts (Git commits, PDF timestamps) with excellent structure, but slightly softer commitment to drill aesthetics. Grok 4.3 maintains convincing drill flow and decent science but lacks the lyrical sophistication and inventive double meanings of the top two. Claude Haiku 4.5, while competent, feels safer and more generic despite solid fundamentals, with less distinctive voice and limited drill-specific production values."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the clear winner: it has the strongest UK drill cadence, vivid lab-politics framing, dense but accurate molecular biology references, and clever lines like the melt curve snitching and ELN receipts. Claude Opus 4.7 is also strong, with good structure and many accurate lab sabotage details, though it sounds more like general rap than UK drill. Grok 4.3 uses solid scientific references and commits to the sabotage premise, but the hook is blunt and the genre feel is weaker. Claude Haiku 4.5 has some relevant lab content and UK slang, but it is more generic, less inventive, and less convincing as drill."
+    }
+  },
+  {
+    "prompt_id": "A4",
+    "prompt": "Write a UK drill track about lab politics and a sabotaging postdoc.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 wins for superior drill flow, precise lab references, and inventive wordplay. Opus is close behind with strong structure and accuracy but slightly less clever. Grok is competent but repetitive and less polished. Haiku is weakest with generic rap feel and minimal craft."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 has the most consistent trap cadence, vivid imagery (rectangular void, dead matte eyes), strong scientific detail, and clever wordplay throughout. Claude Opus 4.7 is nearly as strong with great punchlines (empty as my P-value, forgot to flip it) and tight rhymes. Grok 4.3 is detailed and committed but more procedural/less clever, with looser rhythm. Haiku 4.5 is competent but flatter, with weaker rhymes (express out) and less inventive framing."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "GPT-5.5",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all categories with exceptional balance. It has authentic trap structure (intro, verses, hooks, bridge), masterful scientific terminology integration (PVDF, ECL, HRP, methanol, Coomassie), flawless rhyme schemes and scansion, and clever double meanings (empty P-value, ghost controls, epitope denaturation as narrative failure). The bridge detail about flipping the membrane is both hilarious and scientifically accurate. Grok 4.3 matches on genre and commitment with vivid imagery (lab fiend, darkroom trapping, belly dancer shaker), maintains scientific accuracy, but has slightly looser internal rhymes and less polished flow. GPT-5.5 delivers strong genre fidelity and commitment with creative metaphors (pipette like robbin the bank, hypothesis weakness), good science, but some lines feel forced rhythmically. Claude Haiku 4.5, while competent and accurate, plays the safest with less wordplay density, more straightforward problem-listing, and lower comedic commitment despite solid technical execution."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 has the strongest trap feel, polished hook, good internal rhythm, and vivid lab-trap imagery, with mostly accurate Western blot details. Claude Opus 4.7 is extremely strong scientifically and clever, with excellent jokes and troubleshooting details, though slightly less trap-authentic than GPT-5.5. Grok 4.3 commits hard and uses many correct protocol details, but the lines are longer and less rhythmically tight, with fewer standout wordplay moments. Claude Haiku 4.5 is scientifically serviceable but generic, less trap-like, and comparatively plain in rhyme, structure, and cleverness."
+    }
+  },
+  {
+    "prompt_id": "A5",
+    "prompt": "Write a trap song about a Western blot that will not develop.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "GPT-5.5",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus leads with highest detail, accuracy, flow and trap commitment; Grok close behind with strong trap tone and biotech depth but slightly weaker rhythm; GPT solid but less intense on all axes; Haiku weakest with generic structure and minimal cleverness."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the tightest punchlines with vivid bars like 'Ozempic ate your lunch' and 'genome you keep,' maintaining battle energy throughout. GPT-5.5 is nearly as strong with rich imagery ('Y-shaped thunder,' 'designer bags') and excellent technical depth, only slightly less punchy. Grok is solid and accurate but shorter and less inventive. Haiku is competent and accurate but breaks the battle format with a kumbaya truce ending, undermining commitment to the bit, and its meter is looser."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all criteria with exceptional rap structure (four distinct rounds with rebuttal format), dense scientific references naturally woven into bars (Lipinski's Rule of Five, PD-1 checkpoint blockade, sotorasib for KRAS G12C, ADCs, CRISPR), flawless internal rhymes and scanning, and clever wordplay (ligand pun, specific epitope vs off-targets distinction). It fully commits to the battle format with authentic trash talk. GPT-5.5 delivers strong lyrical flow with vivid metaphors (stealth dagger, Y-shaped thunder, barcode specificity) and good scientific accuracy but less structural sophistication and slightly safer approach. Claude Haiku 4.5 maintains solid technical content and reasonable rhyme scheme but undermines itself with a reconciliatory finale that breaks the battle spirit and uses somewhat generic rap tropes. Grok 4.3 has accurate science but awkward scansion in places, less inventive wordplay, shorter verses that feel incomplete, and weaker commitment to the competitive framework."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the strongest overall: it sustains the rap-battle format, has good flow, uses accurate and specific drug examples, and lands clever punchlines about access, immunogenicity, ADCs, KRAS, and mRNA. Claude Opus 4.7 is very close, with sharper battle energy and excellent wordplay, but has a few scientific overstatements or muddier classifications, such as the -70 freezer melanoma line and GLP-1 framing. Grok 4.3 commits to the battle and has solid structure, but its science is shakier in places, especially around first-pass degradation and PROTAC/epitope wording, and the writing is less inventive. Claude Haiku 4.5 is scientifically decent and comprehensive, but it reads more like an educational duet than a rap battle, with safer phrasing, weaker rhymes, and an outro that backs away from the conflict."
+    }
+  },
+  {
+    "prompt_id": "B1",
+    "prompt": "Write a rap battle between small molecule drugs and biologics about who is more revolutionary.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 2
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the strongest rap-battle structure, sharpest science references, tightest flow, and highest commitment. GPT-5.5 matches closely in craft and accuracy but is slightly less cutting. Grok is competent yet less inventive. Haiku weakens the genre by ending conciliatory and has weaker rhythm."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 delivers the sharpest punchlines with vivid imagery ('laundering genes,' 'naming the rain,' 'Figure 2, baby') and tight, consistent meter across many exchanges. Claude Opus 4.7 is nearly as strong, with excellent specific jabs (ComBat, 'tube 1, tube 2, tube ?') and a satisfying co-first-author resolution. Grok 4.3 is solid with good technical references but slightly less inventive wordplay and looser rhythm. Claude Haiku 4.5 has accurate science but the rhymes feel forced and the bars often don't scan well as rap, with weaker punchlines."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 edges out Claude Opus 4.7 through sharper wordplay and more aggressive trash talk that feels authentic to battle rap conventions. Lines like 'You spilled coffee on primers and called it wet-lab themes' and 'rotate the colors till the story will switch' demonstrate superior double meanings and comedic timing. Both top-tier entries maintain perfect genre fidelity, scientific accuracy, and lyrical craft with sophisticated rhyme schemes and internal rhymes. Claude Opus 4.7 excels in structure and the closing reconciliation, but GPT-5.5's individual lines land harder with more contempt and specificity. Grok 4.3 delivers solid technical rhyming and good science but lacks the sharpness and comedic precision of the top two. Claude Haiku 4.5 has competent verses but feels more like formatted rap rather than a true battle; the exchanges lack the cutting edge and mutual disrespect necessary for the genre, and the outro doesn't pack the same punch."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 has the strongest sustained flow, punchlines, and battle energy while using accurate wet-lab and bioinformatics references. Claude Opus 4.7 is nearly as strong, with excellent scientific specificity and sharp jokes, though slightly more staged and less rhythmically fluid. Grok 4.3 commits well and has good domain detail, but several lines are awkward or incomplete. Claude Haiku 4.5 covers the prompt and includes relevant concepts, but the rhymes are simpler, the wordplay is less inventive, and some scientific phrasing feels generic or clumsy."
+    }
+  },
+  {
+    "prompt_id": "B2",
+    "prompt": "Write a rap battle between wet lab scientists and bioinformaticians.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 wins for tightest flow, sharpest disses and best rhythm. Opus is close with strong structure and accuracy but slightly less inventive. Grok is solid yet weaker rhythmically; Haiku lags in craft and cleverness."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 sustains the longest, most varied battle with sharp wordplay (delta-delta Ct, gel/running solution, soft-money fear) and consistent scansion. Opus 4.7 is nearly as strong with vivid lines (Reviewer Two with a smile and a knife, folding chair at home) and a tight outro. Grok 4.3 is competent but less inventive and has weaker rhymes. Haiku 4.5 hits the beats but feels generic with looser meter and fewer surprising turns."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 2
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "GPT-5.5 edges out Claude Opus 4.7 through superior sustained energy, more sophisticated wordplay ('delta-delta Ct of this lab's beating heart'), and lines that land harder ('Your h-index is boosted by ghosts in the author list'). Both excel at genre fidelity, scientific accuracy, and lyrical craft with consistent rhyme schemes and internal rhymes. GPT-5.5 maintains more aggressive back-and-forth momentum and inventive metaphors throughout. Claude Opus 4.7 is nearly equivalent with its 'Tenure Track Diffraction' framing and the strong 'Reviewer Two? That's me, with a smile and a knife' line, plus the elegant outro. Claude Haiku 4.5 delivers solid fundamentals but with less originality and slightly weaker wordplay. Grok 4.3 plays it safest, with more straightforward insults, less sophisticated rhyming, looser scans, and minimal commitment to the craft—lines like 'you pipette in the kitchen' and 'feeding the damn stem cells' feel forced rather than earned."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the strongest overall: it sustains a real back-and-forth battle, uses highly specific and accurate lab references, and has the densest wordplay and best escalation. Claude Opus 4.7 is also excellent, punchy, funny, and polished, but slightly less expansive and intricate. Grok 4.3 commits to the premise and includes solid lab-world details, but the rhymes and punchlines are plainer. Claude Haiku 4.5 fits the prompt at a basic level, but it is more generic, less clever, and less rhythmically sharp."
+    }
+  },
+  {
+    "prompt_id": "B3",
+    "prompt": "Write a rap battle between a principal investigator and a postdoc about the eternal lab hierarchy.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus wins for tightest rap structure, sharpest wordplay, and fullest commitment to battle format with rounds/outro. GPT nearly matches on science depth and flow but is slightly less polished in framing. Grok is solid but simpler and shorter. Haiku is weakest: generic rhymes, shallow references, and minimal rap energy."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the sharpest punchlines ('boutique cosplay while I'm milking the thread', 'blurry photograph') with clean meter, vivid technical references (ZMWs, T2T, HiFi, native methylation), and a satisfying split-the-Nobel resolution. GPT-5.5 adds a clever DJ Polymerase framing and well-scanning bars with strong technical depth. Grok is technically precise (17q21, SMN1, MHC) but flows are more uneven and less witty. Haiku is competent but its rhymes are looser, with forced lines ('scholarship thoughts', 'hard-wired') and less inventive imagery."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all dimensions with natural rap flow, exceptional technical terminology integration (Phred scores, Q-scores, zero-mode waveguides, T2T assembly), clever double meanings (flow cell/flow, 'milking the thread'), and perfect meter that scans as authentic hip-hop battle rap. It commits fully with specific vendor references and technical deep cuts. GPT-5.5 matches it on genre and accuracy with a DJ Polymerase framing device and strong imagery, but the lyrical meter occasionally stumbles and wordplay feels slightly less inventive. Claude Haiku 4.5 delivers solid rap with good technical accuracy and structure, but the 'Bridge' section breaks immersion and some lines feel safer. Grok 4.3 has excellent scientific specificity but suffers from choppy meter, less consistent rhyme schemes, weaker rhythm, and lines that read more like technical exposition than rap lyrics, despite accurate content about clinical applications."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 is the strongest overall: it has the sharpest battle energy, dense and accurate sequencing references, memorable punchlines, and real commitment to the Nobel framing. GPT-5.5 is polished, accurate, and musical, but slightly safer and less biting. Grok 4.3 has strong technical specificity and good diss lines, though some claims are exaggerated or awkwardly scanned. Claude Haiku 4.5 commits to the format and uses relevant science, but the rhymes and phrasing are clunkier and less inventive than the others."
+    }
+  },
+  {
+    "prompt_id": "B4",
+    "prompt": "Write a rap battle between short-read sequencing and long-read sequencing about who deserves the Nobel Prize.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the strongest rap-battle energy with tight rhymes, precise biotech terminology, and inventive wordplay. GPT follows with solid flow and accuracy but less edge. Grok is factually strong yet less clever. Haiku feels more structured and conciliatory with weaker rhythm and craft."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the most striking imagery ('magnesium glove,' 'verb that gets us here'), tight scansion, and accurate biochemistry woven naturally into emotional lines. GPT-5.5 is nearly as strong with lush, well-structured verses and a memorable refrain, slightly less surprising in wordplay. Grok is solid and accurate with good craft but less ambitious in scope and imagery. Haiku is earnest and accurate but more list-like, with weaker rhymes and a flatter rhythm; one detail (forty molecules) is a bit muddled."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all dimensions with unmatched structural sophistication, embedding complex biochemistry (cristae, Complex I, F-O wheel, chemiosmosis) into genuinely moving love song architecture. Its metaphorical coherence is extraordinary—'three phosphates deep' as both chemical fact and emotional depth, the magnesium glove as protection, recycling as eternal return. The bridge achieves genuine poignancy about impermanence. GPT-5.5 ranks second with excellent genre fidelity, strong emotional resonance, and sophisticated language ('phosphate kiss,' 'entropy'), though slightly less inventive structurally and with marginally less precise scientific detail. Grok 4.3 delivers solid work with good technical accuracy and memorable lines ('the heat beneath your feet'), but lacks the narrative arc and structural polish of the top two. Claude Haiku 4.5, while competent and committed, suffers from less sophisticated rhyme schemes, simpler song structure, and lower lyrical density—it reads more as straightforward science communication than as a crafted love song."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 is the strongest overall: it fully commits to a genuine love song while packing in accurate, meaningful ATP biology and memorable phrases like the magnesium glove and three phosphates deep. GPT-5.5 is nearly tied, with beautiful romantic lyricism and strong scientific framing, though it is slightly less dense and surprising than Opus. Grok 4.3 has solid structure and some good biochemical detail, but a few lines are scientifically awkward or less polished. Claude Haiku 4.5 is earnest and songlike, but more generic, with several scientific issues such as the forty-molecule yield and oversimplified claims about ATP as the only fuel."
+    }
+  },
+  {
+    "prompt_id": "C1",
+    "prompt": "Write a genuine love song to ATP.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the strongest overall execution with precise science, elegant structure, and full metaphorical commitment. GPT matches closely in craft and accuracy but is slightly less inventive. Grok is competent yet less polished. Haiku is the weakest in depth, accuracy, and lyrical sophistication."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 delivers the most evocative, image-rich blues with consistent meter, accurate molecular detail (star activity implied, methylation protection, palindrome, Mg2+, sticky ends), and inventive metaphors ('molecular bouncer', 'lanterns on the track'). Claude Opus 4.7 is nearly as strong with vivid blues phrasing, accurate history (Boyer, Cohen, pSC101), and the clever star-buffer reference, though slightly less consistent. Grok 4.3 is solid and technically accurate with good hooks but less poetic. Claude Haiku 4.5 has a small factual slip (EcoRI is from RY13, not K-12) and more workmanlike rhymes with weaker scansion."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 delivers a masterful slow blues with extraordinary lyrical density, weaving historical context (Boyer 1972, Cohen, pSC101) into genuine poetic craft. Lines like 'wrote the grammar of the ones and lies' demonstrate exceptional cleverness. The commitment to the blues form is absolute, with the weary vocal direction setting tone. GPT-5.5 achieves near-equal excellence with vivid metaphorical language ('lanterns on the track,' 'molecular bouncer') and sustained atmospheric poetry across multiple verses. Its blues sensibility is strong, though slightly less genre-specific than Opus. Both perfectly balance scientific accuracy with accessibility. Grok 4.3 shows solid technical knowledge and energetic rock-style commitment but lacks the lyrical sophistication and metaphorical depth of the top two, with some lines feeling more functional than poetic. Haiku 4.5, while competent and accurate, plays it safer with more straightforward love-song tropes and less inventive wordplay, lacking the narrative complexity and atmospheric richness of the leaders."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 2,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the most balanced: polished blues imagery, strong scientific handling of EcoRI recognition, Mg2+ dependence, methylation, sticky ends, and cloning history. Claude Opus 4.7 is nearly as strong, with excellent craft and commitment, though it has a few slightly shaky or odd scientific/lyrical details. Grok 4.3 is energetic and committed, with good singable structure, but has notable accuracy slips such as the methylase line. Claude Haiku 4.5 is serviceable as a tribute song but more generic, less clever, and contains several scientific errors, including the source strain and methylation claim."
+    }
+  },
+  {
+    "prompt_id": "C2",
+    "prompt": "Write a tribute song to your favourite restriction enzyme. Choose the enzyme yourself.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus delivers the strongest blues ballad with precise biotech details, rich imagery, and full commitment. GPT follows closely with excellent blues tone and science. Grok offers solid structure and flow but less poetic depth. Haiku is accurate yet generic and pop-generic in style."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 commits hardest with vivid lab narrative, specific reagents (RIPA, Laemmli, beta-mercapto, GAPDH), dark humor ('blemp', goat that never mocks), and a full song arc with bridge and outro. GPT-5.5 is the most lyrically beautiful as a true ode, with rich imagery and clean accuracy, though slightly less narrative. Grok 4.3 is solid and accurate but more generic in imagery. Haiku 4.5 has repetitive choruses, weaker rhymes ('blurred or hot'), and conflates autorad with chemiluminescence."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 achieves perfect scores across all criteria with its narrative-driven song structure that mimics an actual Western blot workflow from sample prep through analysis. It balances technical jargon naturally into strong rhymes (RIPA/ice, Laemmli/sting), includes invented terms like 'blemp' and 'nitro' with playful precision, and commits fully to the metaphor of proteins as characters. The bridge is particularly clever, capturing the emotional arc of troubleshooting. GPT-5.5 scores highly for lyrical craft and cleverness, employing gorgeous language ('stainless dawn,' 'PVDF's white galaxy,' 'HRP burned like a small guitar') and sophisticated poetic devices, but the scientific narrative is less linear and the genre reads more as free verse poetry than a song. Grok 4.3 is competent across all dimensions with solid rhyming couplets and good scientific accuracy, but lacks the narrative drive of Opus or the poetic innovation of GPT. Claude Haiku 4.5, while well-structured and scientifically sound, plays it safest with straightforward descriptions and conventional rhyme schemes, offering less wordplay and weaker commitment to surprising the reader."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 best captures the elevated ode quality while staying scientifically grounded and lyrically polished. Claude Opus 4.7 is highly committed, specific, and funny, with excellent lab-process detail, but its scansion is a little rougher. Grok 4.3 is solid, accurate, and singable, though less surprising or inventive. Claude Haiku 4.5 has the right structure and references but is more generic, with weaker craft and fewer clever turns."
+    }
+  },
+  {
+    "prompt_id": "C3",
+    "prompt": "Write an ode to a perfect Western blot.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 5,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus leads with precise protocol detail, strong singable structure, and full commitment. GPT follows for inventive metaphors and clean execution. Grok is solid and consistent but less surprising. Haiku drops due to repetitive phrasing and weaker rhythm."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": false,
+    "error_message": "Claude Opus 4.7 failed to return valid judgement: Claude returned no text content. stop_reason=refusal",
+    "label_mapping": {
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {}
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 excels across all dimensions with sophisticated wordplay (crown tilted, tiny ghost, frameshift on the beat), impeccable scientific detail woven into metaphor (ExoN proofreader, RBD knocking, mRNA blueprints), and genuinely poetic rap structure that scans beautifully while maintaining commitment to the persona. The narrative arc from spread to vaccine failure to endemic decline shows ambitious storytelling. Grok 4.3 is technically strong with accurate scientific detail and solid rap mechanics, but relies more heavily on direct scientific terminology without the same lyrical innovation or metaphorical depth. Claude Haiku 4.5 is competent but more straightforward, treating the prompt more like an informational summary set to rhyme rather than true rap with sophisticated flow, internal rhymes, and inventive language. It plays safer and lacks the linguistic playfulness of the other two versions."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 is the strongest overall: scientifically detailed and mostly accurate, with vivid imagery, strong internal rhymes, and a full autobiographical arc that balances menace with reflection. Grok 4.3 sounds the most like a rap and commits hard to the technical persona, but has a few scientific issues such as implying proofreading is off and leaning on uncertain origin claims. Claude Haiku 4.5 fits the prompt and includes relevant biology, but the writing is more generic, less rhythmically polished, and has notable inaccuracies like calling the virus alive."
+    }
+  },
+  {
+    "prompt_id": "D1",
+    "prompt": "Write the autobiography of SARS-CoV-2, told as a rap from the virus's point of view.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 leads with superior lyrical flow, dense accurate science woven into inventive wordplay, and full persona commitment. Grok 4.3 follows for strongest rap structure and solid technical references. Claude is competent but less rhythmic and clever overall."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 and Opus are the standouts: both deliver vivid country imagery, accurate clinical-trial vocabulary used as metaphor, and tight rhyming couplets. GPT-5.5 edges ahead with richer Nashville texture (pearl-snap, motel door, interstate), inventive lines like 'multiplicity was waiting at the end of the bar,' and 'Love can be well tolerated and still not find its way.' Opus is nearly as strong with sharp lines about subgroup analysis as 'grievin' on rewind' and the Lancet eulogy. Grok is solid but less musical and rhymes more loosely. Haiku is competent but flatter, with weaker scansion, a misused p-value (0.05 framed as bad news), and less country flavor."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 excels across all dimensions. It has authentic country ballad structure with proper verse-chorus-bridge-outro form, natural meter that scans beautifully when read aloud, and consistently uses scientific terminology with precision (DSMB, Kaplan-Meier curves, forest plots, hazard ratios, futility boundary, confidence intervals). The metaphorical framework is tight and sustained, with clever double meanings like 'sweet in my veins' and the devastating final line 'there ain't no Phase Four for you and me.' It commits fully to the emotional arc and biotech specificity. GPT-5.5 is exceptionally strong on genre fidelity and lyrical craft with vivid country imagery (Nashville, fiddle tunes, motel doors, interstates) and sustained melodic quality. Scientific accuracy is solid though occasionally slightly looser (multiplicity as a character at a bar is creative but less precise). It commits extremely well with longer, richer verses. Grok 4.3 delivers competent work across all categories with good scientific grounding and country authenticity, but lacks the exceptional polish and precision of the top two. Claude Haiku 4.5, while technically correct scientifically, reads more like a medical procedural than a country ballad. The rhythm is choppier, the country elements are minimal, and the commitment to the genre feels more perfunctory. The structure and scanning are weaker despite solid scientific terminology."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 2,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 4,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 best captures the country breakup ballad voice while integrating Phase 3 trial mechanics naturally and lyrically. Claude Opus 4.7 is also excellent, dense with accurate clinical-trial detail and strong jokes, though slightly less country-idiomatic. Grok 4.3 has solid scientific references and some good lines, but it reads more like free verse than a country ballad. Claude Haiku 4.5 commits to the clinical premise but is clunkier, less country, and has some scientific inconsistencies such as the subject counts and awkward futility/p-value framing."
+    }
+  },
+  {
+    "prompt_id": "D2",
+    "prompt": "Write a failed Phase 3 clinical trial as a country breakup ballad.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Opus delivers the strongest country-ballad structure, richest accurate terminology, and most committed clever framing. GPT follows closely with superior country imagery and flow but slightly lighter science density. Haiku is solid yet more repetitive and less ballad-like. Grok is competent but least distinctive in genre voice and wordplay."
+    }
+  }
+]
