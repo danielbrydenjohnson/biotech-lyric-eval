@@ -15,9 +15,9 @@
     "judgement": {
       "scores": {
         "A": {
-          "genre_fidelity": 5,
+          "genre_fidelity": 4,
           "scientific_accuracy": 5,
-          "lyrical_craft": 5,
+          "lyrical_craft": 4,
           "cleverness": 4,
           "commitment": 5
         },
@@ -49,7 +49,7 @@
         "C",
         "B"
       ],
-      "reasoning": "A nails grime slang and cadence ('skanking', 'on road', 'fam', pirate radio reference) with strong hooks, varied rhymes, and accurate PCR troubleshooting throughout. D commits hard with a narrative arc ending in success, has solid technical detail (260/230 phenol contamination is a nice touch) and good grime energy. C is technically precise with good flow but slightly less grime-flavored. B leans on repetitive 'ting' tags and feels more generic, with weaker rhymes and less inventive imagery."
+      "reasoning": "A nails grime cadence with vivid slang ('skanking in the bottom lane', 'pirate radio', 'wrong postcode') and tight scientific detail throughout. D commits hard with a satisfying narrative arc, accurate troubleshooting (260/230, phenol contamination, touchdown), and strong hooks. C is solid technically and stylistically but slightly less grime-flavored and has some forced rhymes. B is the weakest—the 'ting' refrain feels generic, rhymes are clunky ('that ain't how it should are'), and it commits less to grime's specific texture."
     }
   },
   {
@@ -82,10 +82,10 @@
           "commitment": 3
         },
         "C": {
-          "genre_fidelity": 4,
+          "genre_fidelity": 3,
           "scientific_accuracy": 4,
           "lyrical_craft": 3,
-          "cleverness": 3,
+          "cleverness": 2,
           "commitment": 3
         },
         "D": {
@@ -99,10 +99,10 @@
       "ranking": [
         "A",
         "D",
-        "C",
-        "B"
+        "B",
+        "C"
       ],
-      "reasoning": "Version A excels across all criteria with sophisticated grime vernacular throughout, flawless scanning, and exceptional scientific detail woven naturally into bars. Lines like 'primer dimer skanking in the bottom lane' and 'template's ghosting' demonstrate mastery of both genres. Version D ranks second with strong commitment, proper narrative arc culminating in actual success, and excellent scientific accuracy, though some lines feel slightly less naturally integrated. Version C delivers competent grime and science but lacks the lyrical polish and double meanings of the top two, with awkward phrasing like 'polymerase mute' (unclear intent). Version B plays safest with generic chorus structure ('ting' repetition), weaker scientific integration, and less compelling wordplay. A's sustained excellence in rhyme schemes, flow, and seamless technical vocabulary integration across extended verses makes it the clear winner."
+      "reasoning": "VERSION A excels across all dimensions. It authentically captures UK grime vocabulary and flow (ladder, skanking, postcode, road, shifty, say less), weaves in precise PCR terminology naturally (primer dimer, Ct curve, NTC, melt curve, secondary structure, GC-rich regions), and maintains strong internal rhyme schemes with excellent scanning. Lines like 'Primer dimer skanking in the bottom lane' and 'Boss says Check the assay I'm like Say less' demonstrate masterful wordplay. It commits fully to the conceit across multiple verses without breaking character. VERSION D ranks second. It has authentic grime fidelity, excellent scientific accuracy (phenol contamination, Tm calculation, RNase degradation, SNP binding sites), and strong lyrical construction with memorable hooks. The narrative arc (repeated failure to eventual success) adds emotional depth. However, it lacks the density of wordplay and grime-specific vocabulary that A achieves. VERSION B is competent but plays safer. While scientifically sound (annealing temps, Taq function, qPCR Ct values), it relies heavily on the repeated 'ting' suffix which becomes formulaic rather than clever, and the flow feels more generic rap than specifically grime. It commits adequately but without flair. VERSION C is the weakest. Scientific accuracy is present but unevenly integrated. The lyrics lack grime-specific vocabulary and authentic flow patterns, lines like 'the ladder stays lost' feel forced, and the overall construction is slack. It doesn't fully commit to either the genre conventions or the comedic potential of the premise."
     }
   },
   {
@@ -122,7 +122,7 @@
       "scores": {
         "A": {
           "genre_fidelity": 4,
-          "scientific_accuracy": 4,
+          "scientific_accuracy": 5,
           "lyrical_craft": 4,
           "cleverness": 4,
           "commitment": 5
@@ -132,20 +132,20 @@
           "scientific_accuracy": 3,
           "lyrical_craft": 2,
           "cleverness": 2,
-          "commitment": 4
+          "commitment": 3
         },
         "C": {
           "genre_fidelity": 3,
           "scientific_accuracy": 4,
           "lyrical_craft": 3,
           "cleverness": 3,
-          "commitment": 3
+          "commitment": 4
         },
         "D": {
           "genre_fidelity": 5,
           "scientific_accuracy": 5,
           "lyrical_craft": 5,
-          "cleverness": 4,
+          "cleverness": 5,
           "commitment": 5
         }
       },
@@ -155,7 +155,7 @@
         "C",
         "B"
       ],
-      "reasoning": "D is the strongest overall: it explicitly frames itself as grime, has tight UK slang and cadence, and uses PCR troubleshooting details accurately and inventively. A is also committed and technically solid, with good hooks and lab-specific imagery, though it feels slightly less authentically grime. C is scientifically competent and readable but more generic lyrically, with weaker grime energy. B has some genre markers and relevant science, but the craft is clunky, the 'ting' repetition feels superficial, and a few lines are awkward or scientifically loose."
+      "reasoning": "D is the strongest overall: it sounds most like a grime track, has sharp UK phrasing, strong hook construction, and very convincing PCR troubleshooting detail. A is also strong, with good grime-adjacent language and excellent scientific references, though it is slightly less tight rhythmically. C is scientifically solid and committed but more like a lab-themed rap poem than grime, with some awkward lines. B has relevant PCR content and some UK slang, but the repetition of 'ting' feels superficial, the flow is weaker, and some scientific/lyrical phrasing is clumsy."
     }
   },
   {
@@ -177,7 +177,7 @@
           "genre_fidelity": 5,
           "scientific_accuracy": 5,
           "lyrical_craft": 5,
-          "cleverness": 4,
+          "cleverness": 5,
           "commitment": 5
         },
         "B": {
@@ -191,24 +191,24 @@
           "genre_fidelity": 4,
           "scientific_accuracy": 4,
           "lyrical_craft": 4,
-          "cleverness": 3,
+          "cleverness": 4,
           "commitment": 4
         },
         "D": {
           "genre_fidelity": 4,
-          "scientific_accuracy": 4,
+          "scientific_accuracy": 5,
           "lyrical_craft": 4,
-          "cleverness": 4,
-          "commitment": 3
+          "cleverness": 3,
+          "commitment": 2
         }
       },
       "ranking": [
         "A",
-        "D",
         "C",
+        "D",
         "B"
       ],
-      "reasoning": "A dominates with authentic grime cadence, exhaustive accurate PCR detail, tight rhyme schemes and full commitment. D follows closely but loses points for the positive resolution. C is solid but thinner on flow and wordplay. B is weakest in rhythm, accuracy and overall craft."
+      "reasoning": "A is the strongest overall with authentic grime flow, precise PCR terminology, tight structure and full commitment to the failing theme. C follows closely with solid craft and accuracy. D is technically good but undermines commitment by resolving successfully. B is weakest due to weaker rhymes, grammatical issues and less immersive delivery."
     }
   }
 ]

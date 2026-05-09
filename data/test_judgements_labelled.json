@@ -17,12 +17,12 @@
         "Claude Opus 4.7": {
           "genre_fidelity": 4,
           "scientific_accuracy": 5,
-          "lyrical_craft": 4,
+          "lyrical_craft": 5,
           "cleverness": 4,
           "commitment": 5
         },
         "Claude Haiku 4.5": {
-          "genre_fidelity": 3,
+          "genre_fidelity": 4,
           "scientific_accuracy": 4,
           "lyrical_craft": 3,
           "cleverness": 3,
@@ -49,7 +49,7 @@
         "Grok 4.3",
         "Claude Haiku 4.5"
       ],
-      "reasoning": "GPT-5.5 nails grime cadence with vivid imagery ('primer dimer skanking', 'thermal cycler spinning like pirate radio') and strong hooks. Opus 4.7 is technically dense and committed with authentic UK touches ('bruv', 'west London'), narrative arc, and accurate science. Grok 4.3 is solid technically with good grime slang but less inventive. Haiku 4.5 is competent but the 'ting' refrain feels forced and rhymes are weaker ('should are')."
+      "reasoning": "GPT-5.5 nails grime cadence with vivid imagery ('primer dimer skanking', 'pirate radio') and strong hooks while staying scientifically grounded. Opus is a close second with dense, accurate troubleshooting detail and authentic UK touches. Grok is solid but less inventive and the hook repeats more mechanically. Haiku feels the most generic, with weaker rhymes ('that ain't how it should are') and less grime flavor."
     }
   },
   {
@@ -79,7 +79,7 @@
           "scientific_accuracy": 4,
           "lyrical_craft": 3,
           "cleverness": 3,
-          "commitment": 3
+          "commitment": 4
         },
         "GPT-5.5": {
           "genre_fidelity": 4,
@@ -102,7 +102,7 @@
         "Claude Haiku 4.5",
         "Grok 4.3"
       ],
-      "reasoning": "Claude Opus 4.7 is exceptional across all dimensions. It captures authentic grime production details (140 BPM, dark instrumental), weaves precise PCR troubleshooting (NEB, Taq polymerase, magnesium titration, DMSO for GC-rich regions, primer design via BLAST) into natural-sounding bars, maintains consistent flow and rhyme schemes, and commits fully to the narrative arc of failure and ultimate redemption. The bridge with re-extraction steps reads like genuine lab protocol while fitting the beat. GPT-5.5 excels at grime authenticity and vocabulary (skanking, postcode, road, wasteman parallels) with solid scientific detail and clever metaphors (Ct curve flat like it missed its train), but occasionally sacrifices scan for wordplay. Claude Haiku 4.5 delivers serviceable grime with the repetitive ting hook anchoring the track, but lacks structural sophistication and leans heavily on listing problems rather than narrative tension. The refrain becomes repetitive and the scientific depth, while accurate, feels more checklist-like. Grok 4.3 shows decent science knowledge but weak grime fidelity—the hook lacks punch, flow is choppy, and the commitment to the genre feels halfhearted. Phrases like wasteman and the grant clock tick work, but overall execution is uneven and lacks the immersive quality of the top two."
+      "reasoning": "Claude Opus 4.7 excels across all dimensions: it nails grime genre conventions with authentic flow, internal rhymes, and hook structure; demonstrates sophisticated scientific knowledge woven naturally into bars; features exceptional lyrical craft with vivid imagery and realistic troubleshooting details; shows genuine cleverness in lines like 'Empty lanes laughing, ladder standing alone' (the gel lanes as empty spaces); and commits fully to the bit with a complete narrative arc ending in success. GPT-5.5 ranks second with strong genre fidelity, accurate science, solid lyricism, and good metaphorical choices ('Primer dimer skanking', 'template ghosting'), though slightly less cohesive. Claude Haiku 4.5 delivers competent grime with the 'ting' hook pattern and accurate technical details, but the repetitive chorus structure feels formulaic and the lyricism is more straightforward. Grok 4.3 underperforms on genre authenticity—the flow feels less grime-aligned and more generic rap; lacks the rhythmic snap and hook structure needed; shows weaker cleverness with more surface-level complaints; and doesn't fully commit to the grime aesthetic despite solid scientific accuracy."
     }
   },
   {
@@ -122,24 +122,24 @@
       "scores": {
         "Claude Opus 4.7": {
           "genre_fidelity": 5,
-          "scientific_accuracy": 5,
+          "scientific_accuracy": 4,
           "lyrical_craft": 5,
           "cleverness": 5,
           "commitment": 5
         },
         "Claude Haiku 4.5": {
           "genre_fidelity": 3,
-          "scientific_accuracy": 4,
-          "lyrical_craft": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
           "cleverness": 2,
-          "commitment": 4
+          "commitment": 3
         },
         "GPT-5.5": {
           "genre_fidelity": 4,
           "scientific_accuracy": 4,
           "lyrical_craft": 4,
           "cleverness": 4,
-          "commitment": 4
+          "commitment": 5
         },
         "Grok 4.3": {
           "genre_fidelity": 4,
@@ -155,7 +155,7 @@
         "Grok 4.3",
         "Claude Haiku 4.5"
       ],
-      "reasoning": "Claude Opus 4.7 is the clear winner: it has the strongest UK grime feel, dense and accurate PCR troubleshooting detail, a memorable hook, and full commitment to the lab-meets-roadman conceit. GPT-5.5 is polished and lyrical with good scientific references, though it leans more general rap than grime and mixes endpoint PCR/qPCR imagery a bit loosely. Grok 4.3 has solid grime slang and decent PCR content, but the writing is clunkier and less inventive. Claude Haiku 4.5 uses relevant biology and commits to the theme, but the repeated 'ting' feels like a shortcut to genre, and the rhyme/rhythm are weaker with fewer standout lines."
+      "reasoning": "Claude Opus 4.7 is the strongest overall: it clearly evokes grime with UK slang and a 140 BPM framing, has a proper hook, and uses detailed PCR troubleshooting accurately and inventively. GPT-5.5 has strong lyrical energy and good lab imagery, though it is a little more generic rap than specifically UK grime and mixes endpoint PCR and qPCR language. Grok 4.3 is concise and fairly accurate with decent grime flavour, but the writing is less memorable and some lines are clunky. Claude Haiku 4.5 commits to the topic but relies heavily on repetitive 'ting' phrasing, has weaker scansion, and includes less inventive wordplay."
     }
   },
   {
@@ -177,12 +177,12 @@
           "genre_fidelity": 5,
           "scientific_accuracy": 5,
           "lyrical_craft": 5,
-          "cleverness": 4,
+          "cleverness": 5,
           "commitment": 5
         },
         "Claude Haiku 4.5": {
           "genre_fidelity": 3,
-          "scientific_accuracy": 3,
+          "scientific_accuracy": 2,
           "lyrical_craft": 2,
           "cleverness": 2,
           "commitment": 3
@@ -196,8 +196,8 @@
         },
         "Grok 4.3": {
           "genre_fidelity": 4,
-          "scientific_accuracy": 4,
-          "lyrical_craft": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 4,
           "cleverness": 3,
           "commitment": 4
         }
@@ -208,7 +208,7 @@
         "Grok 4.3",
         "Claude Haiku 4.5"
       ],
-      "reasoning": "Opus leads with authentic grime flow, precise PCR troubleshooting, tight structure and full commitment. GPT follows closely with strong hooks and solid craft. Grok is competent but less polished. Haiku ranks last due to weak rhythm, repetitive 'ting' phrasing and mixed qPCR references."
+      "reasoning": "Opus dominates with authentic grime delivery, precise PCR science, tight rhymes and full commitment. GPT follows with strong flow and decent accuracy. Grok is solid but shallower scientifically. Haiku is repetitive, mixes qPCR/PCR concepts incorrectly and lacks craft."
     }
   }
 ]
