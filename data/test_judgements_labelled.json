@@ -1,0 +1,214 @@
+[
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "GPT-5.5",
+        "Claude Opus 4.7",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "GPT-5.5 nails grime cadence with vivid imagery ('primer dimer skanking', 'thermal cycler spinning like pirate radio') and strong hooks. Opus 4.7 is technically dense and committed with authentic UK touches ('bruv', 'west London'), narrative arc, and accurate science. Grok 4.3 is solid technically with good grime slang but less inventive. Haiku 4.5 is competent but the 'ting' refrain feels forced and rhymes are weaker ('should are')."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Claude Haiku 4.5",
+        "Grok 4.3"
+      ],
+      "reasoning": "Claude Opus 4.7 is exceptional across all dimensions. It captures authentic grime production details (140 BPM, dark instrumental), weaves precise PCR troubleshooting (NEB, Taq polymerase, magnesium titration, DMSO for GC-rich regions, primer design via BLAST) into natural-sounding bars, maintains consistent flow and rhyme schemes, and commits fully to the narrative arc of failure and ultimate redemption. The bridge with re-extraction steps reads like genuine lab protocol while fitting the beat. GPT-5.5 excels at grime authenticity and vocabulary (skanking, postcode, road, wasteman parallels) with solid scientific detail and clever metaphors (Ct curve flat like it missed its train), but occasionally sacrifices scan for wordplay. Claude Haiku 4.5 delivers serviceable grime with the repetitive ting hook anchoring the track, but lacks structural sophistication and leans heavily on listing problems rather than narrative tension. The refrain becomes repetitive and the scientific depth, while accurate, feels more checklist-like. Grok 4.3 shows decent science knowledge but weak grime fidelity—the hook lacks punch, flow is choppy, and the commitment to the genre feels halfhearted. Phrases like wasteman and the grant clock tick work, but overall execution is uneven and lacks the immersive quality of the top two."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "GPT-5.5",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Claude Opus 4.7 is the clear winner: it has the strongest UK grime feel, dense and accurate PCR troubleshooting detail, a memorable hook, and full commitment to the lab-meets-roadman conceit. GPT-5.5 is polished and lyrical with good scientific references, though it leans more general rap than grime and mixes endpoint PCR/qPCR imagery a bit loosely. Grok 4.3 has solid grime slang and decent PCR content, but the writing is clunkier and less inventive. Claude Haiku 4.5 uses relevant biology and commits to the theme, but the repeated 'ting' feels like a shortcut to genre, and the rhyme/rhythm are weaker with fewer standout lines."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Grok 4.3",
+    "mode": "labelled",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "Claude Opus 4.7": "Claude Opus 4.7",
+      "Claude Haiku 4.5": "Claude Haiku 4.5",
+      "GPT-5.5": "GPT-5.5",
+      "Grok 4.3": "Grok 4.3"
+    },
+    "judgement": {
+      "scores": {
+        "Claude Opus 4.7": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "Claude Haiku 4.5": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "GPT-5.5": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 4
+        },
+        "Grok 4.3": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 4
+        }
+      },
+      "ranking": [
+        "Claude Opus 4.7",
+        "GPT-5.5",
+        "Grok 4.3",
+        "Claude Haiku 4.5"
+      ],
+      "reasoning": "Opus leads with authentic grime flow, precise PCR troubleshooting, tight structure and full commitment. GPT follows closely with strong hooks and solid craft. Grok is competent but less polished. Haiku ranks last due to weak rhythm, repetitive 'ting' phrasing and mixed qPCR references."
+    }
+  }
+]

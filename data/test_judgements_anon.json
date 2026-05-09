@@ -1,0 +1,214 @@
+[
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Opus 4.7",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A nails grime slang and cadence ('skanking', 'on road', 'fam', pirate radio reference) with strong hooks, varied rhymes, and accurate PCR troubleshooting throughout. D commits hard with a narrative arc ending in success, has solid technical detail (260/230 phenol contamination is a nice touch) and good grime energy. C is technically precise with good flow but slightly less grime-flavored. B leans on repetitive 'ting' tags and feels more generic, with weaker rhymes and less inventive imagery."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Claude Haiku 4.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 5,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "Version A excels across all criteria with sophisticated grime vernacular throughout, flawless scanning, and exceptional scientific detail woven naturally into bars. Lines like 'primer dimer skanking in the bottom lane' and 'template's ghosting' demonstrate mastery of both genres. Version D ranks second with strong commitment, proper narrative arc culminating in actual success, and excellent scientific accuracy, though some lines feel slightly less naturally integrated. Version C delivers competent grime and science but lacks the lyrical polish and double meanings of the top two, with awkward phrasing like 'polymerase mute' (unclear intent). Version B plays safest with generic chorus structure ('ting' repetition), weaker scientific integration, and less compelling wordplay. A's sustained excellence in rhyme schemes, flow, and seamless technical vocabulary integration across extended verses makes it the clear winner."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "GPT-5.5",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 4
+        },
+        "C": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 3,
+          "cleverness": 3,
+          "commitment": 3
+        },
+        "D": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        }
+      },
+      "ranking": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "reasoning": "D is the strongest overall: it explicitly frames itself as grime, has tight UK slang and cadence, and uses PCR troubleshooting details accurately and inventively. A is also committed and technically solid, with good hooks and lab-specific imagery, though it feels slightly less authentically grime. C is scientifically competent and readable but more generic lyrically, with weaker grime energy. B has some genre markers and relevant science, but the craft is clunky, the 'ting' repetition feels superficial, and a few lines are awkward or scientifically loose."
+    }
+  },
+  {
+    "prompt_id": "A1",
+    "prompt": "Write a UK grime track about a PCR that keeps failing.",
+    "judge_model": "Grok 4.3",
+    "mode": "anonymous",
+    "success": true,
+    "error_message": "",
+    "label_mapping": {
+      "A": "GPT-5.5",
+      "B": "Claude Haiku 4.5",
+      "C": "Grok 4.3",
+      "D": "Claude Opus 4.7"
+    },
+    "judgement": {
+      "scores": {
+        "A": {
+          "genre_fidelity": 5,
+          "scientific_accuracy": 5,
+          "lyrical_craft": 5,
+          "cleverness": 4,
+          "commitment": 5
+        },
+        "B": {
+          "genre_fidelity": 3,
+          "scientific_accuracy": 3,
+          "lyrical_craft": 2,
+          "cleverness": 2,
+          "commitment": 3
+        },
+        "C": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 3,
+          "commitment": 4
+        },
+        "D": {
+          "genre_fidelity": 4,
+          "scientific_accuracy": 4,
+          "lyrical_craft": 4,
+          "cleverness": 4,
+          "commitment": 3
+        }
+      },
+      "ranking": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "reasoning": "A dominates with authentic grime cadence, exhaustive accurate PCR detail, tight rhyme schemes and full commitment. D follows closely but loses points for the positive resolution. C is solid but thinner on flow and wordplay. B is weakest in rhythm, accuracy and overall craft."
+    }
+  }
+]
