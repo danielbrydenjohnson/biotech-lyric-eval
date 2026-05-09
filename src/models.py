@@ -37,6 +37,26 @@ def retry_call(func: Callable[[], str], retries: int = 3, delay_seconds: int = 3
     raise last_error
 
 
+def extract_claude_text(response) -> str:
+    """
+    Extract text from an Anthropic response safely.
+
+    Claude responses usually contain one or more content blocks. We collect all text
+    blocks rather than assuming response.content[0].text always exists.
+    """
+    text_parts = []
+
+    for block in response.content:
+        if getattr(block, "type", None) == "text":
+            text_parts.append(block.text)
+
+    if text_parts:
+        return "\n".join(text_parts).strip()
+
+    stop_reason = getattr(response, "stop_reason", "unknown")
+    raise ValueError(f"Claude returned no text content. stop_reason={stop_reason}")
+
+
 def call_claude(prompt: str, model: str, max_tokens: int = 800) -> str:
     """
     Call an Anthropic Claude model and return the text response.
@@ -55,7 +75,7 @@ def call_claude(prompt: str, model: str, max_tokens: int = 800) -> str:
                 {"role": "user", "content": prompt}
             ],
         )
-        return response.content[0].text
+        return extract_claude_text(response)
 
     return retry_call(_call)
 
@@ -107,8 +127,8 @@ def call_grok(prompt: str, max_tokens: int = 800) -> str:
     """
     Call Grok 4.3 via the xAI SDK.
 
-    Note: max_tokens is accepted for interface consistency with the other wrappers,
-    but we do not pass it into xAI yet because the installed SDK's chat.create()
+    max_tokens is accepted for interface consistency with the other wrappers,
+    but is not passed into xAI yet because the installed SDK's chat.create()
     method rejected max_completion_tokens during smoke testing.
     """
     api_key = os.getenv("XAI_API_KEY")

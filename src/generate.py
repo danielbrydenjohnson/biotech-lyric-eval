@@ -35,6 +35,7 @@ REQUIREMENTS:
 - Avoid bland motivational science lyrics.
 - Avoid explaining the song. Only output the lyrics.
 - Do not include commentary before or after the lyrics.
+- If the prompt involves a pathogen, write in a fictional, non-instructional, non-operational way. Do not provide instructions for culturing, engineering, spreading, or evading detection.
 
 HELPFUL NOTES:
 {notes}
@@ -42,6 +43,34 @@ HELPFUL NOTES:
 LENGTH:
 Aim for roughly 24 to 40 lines.
 """.strip()
+
+
+def save_json(records: List[Dict[str, str]], output_path: Path) -> None:
+    """
+    Save records to JSON.
+    """
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(records, f, indent=2, ensure_ascii=False)
+
+
+def load_existing_results(output_path: Path) -> List[Dict[str, str]]:
+    """
+    Load existing generation results if the file exists.
+    """
+    if not output_path.exists():
+        return []
+
+    with output_path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def result_key(record: Dict[str, str]) -> tuple:
+    """
+    Create a unique key for one prompt/model generation.
+    """
+    return (record["prompt_id"], record["model"])
 
 
 def run_generation(
@@ -54,18 +83,20 @@ def run_generation(
     """
     Generate lyric outputs for every prompt and every model.
 
-    Results are saved to output_path as JSON.
+    Results are saved progressively to output_path after every call.
 
-    If output_path already exists and overwrite=False, the existing file is loaded
-    instead of making more API calls.
+    If output_path already exists and overwrite=False, existing prompt/model results
+    are skipped. This allows safe resuming after crashes.
     """
-    if output_path.exists() and not overwrite:
-        print(f"Generation file already exists. Loading existing results from: {output_path}")
-        with output_path.open("r", encoding="utf-8") as f:
-            return json.load(f)
+    existing_results = [] if overwrite else load_existing_results(output_path)
+    completed_keys = {result_key(record) for record in existing_results}
 
-    results = []
-    total_calls = len(prompts) * len(model_calls)
+    results = existing_results.copy()
+    total_expected = len(prompts) * len(model_calls)
+
+    if existing_results and not overwrite:
+        print(f"Loaded {len(existing_results)} existing results from: {output_path}")
+        print("Existing prompt/model pairs will be skipped.")
 
     for prompt_record in tqdm(prompts, desc="Prompts"):
         generation_prompt = build_generation_prompt(prompt_record)
@@ -76,33 +107,49 @@ def run_generation(
             desc=f"Models for {prompt_record['id']}",
             leave=False,
         ):
+            current_key = (prompt_record["id"], model_name)
+
+            if current_key in completed_keys:
+                print(f"Skipping {prompt_record['id']} with {model_name}: already exists")
+                continue
+
             print(f"Generating {prompt_record['id']} with {model_name}")
 
-            output_text = call_model(
-                generation_prompt,
-                max_tokens=max_tokens,
-            )
+            try:
+                output_text = call_model(
+                    generation_prompt,
+                    max_tokens=max_tokens,
+                )
+                success = True
+                error_message = ""
 
-            results.append(
-                {
-                    "prompt_id": prompt_record["id"],
-                    "category": prompt_record["category"],
-                    "category_short": prompt_record["category_short"],
-                    "prompt": prompt_record["prompt"],
-                    "model": model_name,
-                    "generation_prompt": generation_prompt,
-                    "output_text": output_text,
-                }
-            )
+            except Exception as error:
+                output_text = ""
+                success = False
+                error_message = str(error)
+                print(f"FAILED {prompt_record['id']} with {model_name}: {error_message}")
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+            result = {
+                "prompt_id": prompt_record["id"],
+                "category": prompt_record["category"],
+                "category_short": prompt_record["category_short"],
+                "prompt": prompt_record["prompt"],
+                "model": model_name,
+                "generation_prompt": generation_prompt,
+                "output_text": output_text,
+                "success": success,
+                "error_message": error_message,
+            }
 
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+            results.append(result)
+            completed_keys.add(current_key)
 
-    print(f"Saved {len(results)} generations to: {output_path}")
+            save_json(results, output_path)
+            print(f"Saved progress: {len(results)}/{total_expected} records")
 
-    if len(results) != total_calls:
-        print(f"Warning: expected {total_calls} generations but got {len(results)}")
+    if len(results) != total_expected:
+        print(f"Warning: expected {total_expected} records but got {len(results)}")
+
+    print(f"Generation run complete. Results saved to: {output_path}")
 
     return results
