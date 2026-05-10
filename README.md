@@ -182,43 +182,7 @@ biotech-lyric-eval/
     └── tables/
 
 
-## How to run
 
-Clone the repo:
-
-```bash
-git clone https://github.com/danielbrydenjohnson/biotech-lyric-eval.git
-cd biotech-lyric-eval
-```
-
-Create and activate a virtual environment:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Create a local `.env` file from the example:
-
-```bash
-cp .env.example .env
-```
-
-Add API keys for the model providers.
-
-Then open the notebook:
-
-```text
-notebooks/biotech_lyric_eval.ipynb
-```
-
-The notebook is the main artefact. It is designed to be read from top to bottom, with code, outputs, charts, and interpretation interleaved.
 
 ## Limitations
 
