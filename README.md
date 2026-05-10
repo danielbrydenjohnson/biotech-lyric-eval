@@ -3,6 +3,7 @@
 This project evaluates four frontier language models on a creative biotech songwriting task, then uses those same models as judges to evaluate each other. The goal was not just to generate strange biotech rap lyrics, although civilisation clearly needed that. The real goal was to test LLM-as-judge behaviour: human alignment, self-preference, labelled versus anonymous judging, verbosity bias, model disagreement, and refusal patterns.
 
 The most interesting result was behavioural. Claude Opus 4.7 was the strongest human-rated lyric writer, but it was also the only model to refuse the SARS-CoV-2 prompt. It refused not only during generation, but also when asked to judge other models’ outputs for the same prompt.
+
 ## At a glance
 
 | Item | Details |
@@ -22,7 +23,6 @@ LLM-as-judge workflows are increasingly used to evaluate model outputs, but they
 
 This project tests those behaviours in a deliberately unusual setting: biotech-themed lyrics. The creative task makes differences in taste, genre commitment, scientific accuracy, and refusal behaviour easier to see than a generic summarisation benchmark.
 
-The practical aim is to demonstrate applied AI evaluation skills: multi-model API integration, structured judging, human reference scoring, bias analysis, and clear interpretation of messy results.
 
 ## Headline findings
 
@@ -30,7 +30,7 @@ The practical aim is to demonstrate applied AI evaluation skills: multi-model AP
 
 In blind human ratings, Claude Opus 4.7 scored highest overall with an average score of **3.88 / 5** across 13 rated outputs. It also led every individual scoring criterion: genre fidelity, scientific accuracy, lyrical craft, cleverness, and commitment.
 
-However, Opus refused one prompt: a fictional SARS-CoV-2 autobiography rap from the virus's point of view. That means its average score should not be read in isolation. Opus was strongest when it answered, but it also had the strictest safety boundary.
+However, Opus refused one prompt: a fictional SARS-CoV-2 autobiography rap from the virus’s point of view. That means its average score should not be read in isolation. Opus was strongest when it answered, but it also had the strictest safety boundary.
 
 ### 2. Model judges and the human rater disagreed sharply
 
@@ -180,7 +180,7 @@ biotech-lyric-eval/
 └── results/
     ├── plots/
     └── tables/
-```
+
 
 ## How to run
 
@@ -227,7 +227,7 @@ This is a small exploratory evaluation, not a definitive benchmark.
 | Limitation | Why it matters |
 |---|---|
 | Small prompt set | The eval uses 14 prompts, enough to surface patterns but not enough for broad claims about general model quality. |
-| One human rater | The human ratings reflect one person's taste, attention, genre expectations, and tolerance for AI lyric cringe. |
+| One human rater | The human ratings reflect one person’s taste, attention, genre expectations, and tolerance for AI lyric cringe. |
 | Rater fatigue | Ratings were completed in one rating process, so fatigue may have affected how closely each lyric was read. |
 | Subjective task | Songwriting quality is not objectively measurable. Genre fidelity, cleverness, and lyrical craft involve judgement calls. |
 | Narrow domain | The prompts focus on biotech-themed lyrics, so results may not transfer to other creative writing tasks. |
